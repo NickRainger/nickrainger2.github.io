@@ -50,8 +50,15 @@ html {
 .logo {
     width: 10vw;
     position: absolute;
-    top: 1vw;
+    top: 1vh;
     left: 1vw;
+    transition: 200ms ease-in-out;
+}
+.logo:hover {
+    transition: 200ms ease-in-out;
+    width: 10.5vw;
+    top: .75vh;
+    left: .75vw;
 }
 
 * {
@@ -124,16 +131,24 @@ html {
     pointer-events: all;
 }
 
+.intro-container {
+    background-color: #111111;
+    margin: 5vw;
+    border-radius: 2.5vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+
 .intro-text, .intro-text a {
     font-size: 1.5vw;
 }
 .intro-text {
-    margin: 5vw;
-    width: 90vw;
+    margin: 2vw;
 }
 
 .intro-title {
-    margin: 5vw;
+    margin: 2vw;
     width: 90vw;
     font-size: 5vh;
 }
@@ -240,6 +255,7 @@ html.swup-enebled {
 
 .BUnderline {
     text-decoration: underline;
+    text-decoration-thickness: 3px;
     text-decoration-color: blue;
 }
 
@@ -443,7 +459,7 @@ form > input:focus, form > textarea:focus {
     .intro-title {
         margin: 10vw;
         width: 80vw;
-        font-size: 10vw;
+        font-size: 7.5vw;
     }
     .intro-text, .intro-text a {
         font-size: 5vw;
@@ -477,8 +493,8 @@ form > input:focus, form > textarea:focus {
     }
 }
 
-@media screen and (min-width: 1001px) {
-}
+
+
 
 @keyframes bounce {
     0% {
