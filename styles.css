@@ -123,7 +123,7 @@ html {
     cursor: pointer;
     font-size: 2vw;
     text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: #0000ff;
 }
 
 .contact-link {
