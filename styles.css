@@ -366,7 +366,7 @@ form > input:focus, form > textarea:focus {
 
 .download-list a img {
     border-radius: .5vw;
-    transition: 200ms ease-in-out;
+    transition: 1000ms ease-in-out;
     margin: 1vw;
     height: 10vh;
     float: left;
