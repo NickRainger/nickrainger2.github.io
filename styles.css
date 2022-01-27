@@ -350,7 +350,8 @@ form > input:focus, form > textarea:focus {
 }
 
 .download-list a {
-    font-size: 1rem;
+    line-height: 10vh;
+    font-size: 1vw;
     background-color: rgba(0, 0, 0, .5);
     box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.75 inset);
     border-radius: 1vw;
@@ -368,16 +369,14 @@ form > input:focus, form > textarea:focus {
     transition: 200ms ease-in-out;
     margin: 1vw;
     height: 10vh;
-    display: none;
     float: left;
 }
 
 .download-list a img:hover {
-    height: 75vh;
+    height: 90vh;
 }
 
 .download-list a:hover > .download-img {
-    display: block;
     transition: 500ms ease-in-out;
     opacity: 1;
 }
