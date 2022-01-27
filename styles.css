@@ -369,7 +369,7 @@ form > input:focus, form > textarea:focus {
     margin: 1vw;
     height: 10vh;
     display: none;
-    float: right;
+    float: left;
 }
 
 .download-list a img:hover {
