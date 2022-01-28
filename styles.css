@@ -104,7 +104,7 @@ html {
 
 .nieuws-header {
     width: 90vw;
-    background: #181818;
+    background: #191919ee;
     border-radius: 2.5vh;
     margin: 5vh;
     padding: 5vh;
@@ -133,7 +133,7 @@ html {
 }
 
 .intro-container {
-    background-color: #111111;
+    background-color: #191919ee;
     margin: 5vw;
     border-radius: 2.5vh;
     width: 90vw;
@@ -151,7 +151,7 @@ html {
 .intro-title {
     margin: 2vw;
     width: 90vw;
-    font-size: 5vh;
+    font-size: 30px;
 }
 
 .dropdown-menu {
@@ -281,11 +281,10 @@ html.swup-enebled {
 }
 
 .forum {
-    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.75) inset;
     padding: 5vw;
     margin: 5vw;
     width: 80vw;
-    background: rgba(0, 0, 0, .5);
+    background: #191919ee;
     border-radius: 2vw;
     pointer-events: all;
     
@@ -298,34 +297,37 @@ html.swup-enebled {
 .forum button {
     font-size: 1rem;
     list-style-type:none;
-    background: rgba(0, 0, 0, .5);
-    border-radius: 1vw;
-    padding: .5vw 1vw;
-    margin: 2vw;
+    background: #00000080;
+    padding: .5vw;
+    margin: 2vw .5vw;
     width: auto;
+}
+.forum button:hover {
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.75);
+    border-color: #ff8000;
 }
 
 .forum h1 {
-    margin-left: 1vw;
+    margin: 3vw 1vw 0;
 }
 
 form input, form textarea, form button, form textarea {
     box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.75) inset;
     display: flex;
     flex-direction: column;
-    margin: .5rem;
-    font-size: 1rem;
-    padding: .5rem;
+    margin: .5vw;
+    font-size: 15px;
+    padding: .5vw;
     display: list-item;
     border-style: none;
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-color: #024C97;
-    background: rgba(0, 0, 0, .5);
+    background: #00000080;
     color: rgb(255, 255, 255);
     outline: 0;
     transition: ease-in-out 500ms;
-    width: 50%;
+    width: 20%;
 }
 
 form textarea {
@@ -335,7 +337,7 @@ form textarea {
 form > input:focus, form > textarea:focus {
     box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.75);
     transition: ease-in-out 500ms;
-    border-color: rgb(255, 128, 0);
+    border-color: #ff8000;
 }
 
 .download-list {
