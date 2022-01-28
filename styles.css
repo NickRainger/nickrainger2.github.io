@@ -424,7 +424,7 @@ form > input:focus, form > textarea:focus {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     body {
         background-size: cover;
     }
@@ -434,9 +434,9 @@ form > input:focus, form > textarea:focus {
     }
     .main-title, .main-title span, .RhenenLink, .main-title p, .fa-map-marker-alt{
         pointer-events: all;
-        top: 10vh;
-        left: 5vw;
-        font-size: 12vw;
+        top: 10vw;
+        left: 10vw;
+        font-size: 15vw;
     }
     .logo {
         display: none;
@@ -446,6 +446,9 @@ form > input:focus, form > textarea:focus {
     }
     .link {
         font-size: 3.5vw;
+    }
+    form input, form textarea, form button, form textarea {
+        width: 100%;
     }
     /*
     .small-spacer {
