@@ -355,16 +355,21 @@ form > input:focus, form > textarea:focus {
 .download-list a {
     line-height: 10vh;
     font-size: 1vw;
-    background-color: rgba(0, 0, 0, .5);
-    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.75 inset);
-    border-radius: 1vw;
+    background-color: #191919ee;
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.75) inset;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: #024C97;
     margin: 1vw;
     padding: 1vw;
     cursor: pointer;
     pointer-events: all;
+    border-radius: 5px;
 }
 .download-list a:hover {
-    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.75) inset;
+    border-color: #ff8000;
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.75);
 }
 
 .download-list a img {
@@ -387,8 +392,8 @@ form > input:focus, form > textarea:focus {
 .team-header {
     pointer-events: all;
     width: 100vw;
-    margin: 0vh;
-
+    padding: 1vw;
+    background: #191919ee;
 }
 
 .team-foto {
@@ -402,15 +407,15 @@ form > input:focus, form > textarea:focus {
 .team-text-title {
     box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.75);
     border-radius: 2vw;
-    font-size: 3vw;
+    font-size: 30px;
     padding: 5vw;
 }
 
 .team-text, .team-text span, .team-text a{
     border-radius: 5px;
     right: 0;
-    font-size: 1.5rem;
-    margin: 1vw;
+    font-size: 20px;
+    margin: 2vw 0;
 }
 
 .transition {
